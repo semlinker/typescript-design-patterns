@@ -1,0 +1,9 @@
+/// <reference path="adapter.ts" />
+namespace AdapterPattern {
+  export namespace Demo {
+    export function show(): void {
+      const adapter: AdapterPattern.Adapter = new AdapterPattern.Adapter();
+      adapter.request();
+    }
+  }
+}

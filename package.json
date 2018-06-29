@@ -1,0 +1,18 @@
+{
+  "name": "typescript_design_pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "author": "semlinker",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.6"
+  }
+}
