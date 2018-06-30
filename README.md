@@ -16,7 +16,7 @@
 - Bridge
 - Composite
 - Decorator
-- Facade
+- [Facade](https://github.com/semlinker/typescript-design-patterns/tree/master/src/facade)
 - [Flyweight](https://github.com/semlinker/typescript-design-patterns/tree/master/src/flyweight)
 - [Proxy](https://github.com/semlinker/typescript-design-patterns/tree/master/src/proxy)
 

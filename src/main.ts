@@ -3,6 +3,7 @@
 /// <reference path="factory-method/demo.ts" />
 /// <reference path="builder/demo.ts" />
 /// <reference path="adapter/demo.ts" />
+/// <reference path="facade/demo.ts" />
 /// <reference path="flyweight/demo.ts" />
 /// <reference path="iterator/demo.ts" />
 /// <reference path="observer/demo.ts" />
@@ -75,6 +76,9 @@ namespace Patterns {
           break;
         case 6:
           show(AdapterPattern);
+          break;
+        case 10:
+          show(FacadePattern);
           break;
         case 11:
           show(FlyweightPattern);
