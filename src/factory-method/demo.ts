@@ -3,11 +3,14 @@
 namespace FactoryMethodPattern {
   export namespace Demo {
     export function show(): void {
-      const productFactory: ConcreteFactory = new FactoryMethodPattern.ConcreteFactory();
-      const productA: FactoryMethodPattern.Product = productFactory.createProduct("A");
-	  const productB: FactoryMethodPattern.Product = productFactory.createProduct("B");
-	  productA.use();
-	  productB.use();
+      const productFactoryA: ConcreteFactoryA = new FactoryMethodPattern.ConcreteFactoryA();
+      const productA: FactoryMethodPattern.Product = productFactoryA.createProduct();
+
+      const productFactoryB: ConcreteFactoryA = new FactoryMethodPattern.ConcreteFactoryB();
+      const productB: FactoryMethodPattern.Product = productFactoryB.createProduct();
+      
+      productA.use();
+      productB.use();
     }
   }
 }

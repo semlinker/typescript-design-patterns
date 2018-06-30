@@ -16,17 +16,18 @@ namespace FactoryMethodPattern {
   }
 
   export abstract class Factory {
-    abstract createProduct(type: string): Product;
+    abstract createProduct(): Product;
   }
 
-  export class ConcreteFactory extends Factory {
-    createProduct(type: string): Product {
-      if (type === "A") {
-        return new ConcreteProductA();
-      } else if (type === "B") {
-        return new ConcreteProductB();
-      }
-      return null;
+  export class ConcreteFactoryA extends Factory {
+    createProduct(): Product {
+      return new ConcreteProductA();
+    }
+  }
+
+  export class ConcreteFactoryB extends Factory {
+    createProduct(): Product {
+      return new ConcreteProductB();
     }
   }
 }

@@ -1,4 +1,5 @@
 /// <reference path="singleton/demo.ts" />
+/// <reference path="abstract-factory/demo.ts" />
 /// <reference path="factory-method/demo.ts" />
 /// <reference path="builder/demo.ts" />
 /// <reference path="adapter/demo.ts" />
@@ -59,6 +60,9 @@ namespace Patterns {
       switch (+answer) {
         case 1:
           show(SingletonPattern);
+          break;
+        case 2:
+          show(AbstractFactoryPattern);
           break;
         case 3:
           show(FactoryMethodPattern);

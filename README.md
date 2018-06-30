@@ -5,7 +5,7 @@
 #### Creational（创建型模式）
 
 - [Singleton](https://github.com/semlinker/typescript-design-patterns/tree/master/src/singleton)
-- Abstract Factory
+- [Abstract Factory](https://github.com/semlinker/typescript-design-patterns/tree/master/src/abstract-factory)
 - [Factory Method](https://github.com/semlinker/typescript-design-patterns/tree/master/src/factory-method)
 - [Builder](https://github.com/semlinker/typescript-design-patterns/tree/master/src/builder)
 - [Prototype](https://github.com/semlinker/typescript-design-patterns/tree/master/src/prototype)
