@@ -15,7 +15,7 @@
 - [Adapter](https://github.com/semlinker/typescript-design-patterns/tree/master/src/adapter)
 - Bridge
 - Composite
-- Decorator
+- [Decorator](https://github.com/semlinker/typescript-design-patterns/tree/master/src/decorator)
 - [Facade](https://github.com/semlinker/typescript-design-patterns/tree/master/src/facade)
 - [Flyweight](https://github.com/semlinker/typescript-design-patterns/tree/master/src/flyweight)
 - [Proxy](https://github.com/semlinker/typescript-design-patterns/tree/master/src/proxy)
