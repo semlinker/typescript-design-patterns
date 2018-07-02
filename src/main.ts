@@ -7,6 +7,7 @@
 /// <reference path="facade/demo.ts" />
 /// <reference path="flyweight/demo.ts" />
 /// <reference path="iterator/demo.ts" />
+/// <reference path="mediator/demo.ts" />
 /// <reference path="observer/demo.ts" />
 /// <reference path="strategy/demo.ts" />
 /// <reference path="template-method/demo.ts" />
@@ -92,6 +93,9 @@ namespace Patterns {
           break;
         case 16:
           show(IteratorPattern);
+          break;
+        case 17:
+          show(MediatorPattern);
           break;
         case 19:
           show(ObserverPattern);

@@ -26,7 +26,7 @@
 - Command
 - Interpreter
 - [Iterator](https://github.com/semlinker/typescript-design-patterns/tree/master/src/iterator)
-- Mediator
+- [Mediator](https://github.com/semlinker/typescript-design-patterns/tree/master/src/mediator)
 - Memento
 - [Observer](https://github.com/semlinker/typescript-design-patterns/tree/master/src/observer)
 - State
