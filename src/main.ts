@@ -9,6 +9,7 @@
 /// <reference path="iterator/demo.ts" />
 /// <reference path="mediator/demo.ts" />
 /// <reference path="observer/demo.ts" />
+/// <reference path="state/demo.ts" />
 /// <reference path="strategy/demo.ts" />
 /// <reference path="template-method/demo.ts" />
 /// <reference path="prototype/demo.ts" />
@@ -99,6 +100,9 @@ namespace Patterns {
           break;
         case 19:
           show(ObserverPattern);
+          break;
+        case 20:
+          show(StatePattern);
           break;
         case 21:
           show(StrategyPattern);
