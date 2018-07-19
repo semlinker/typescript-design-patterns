@@ -38,12 +38,71 @@
 
 #### 具体实现
 
-```typescript
+定义 State 接口
 
+```typescript
+export interface State {
+        handle(context: Context): void;
+}
+```
+
+定义 ConcreteStateA 与 ConcreteStateB 类
+
+```typescript
+export class ConcreteStateA implements State {
+        public handle(context: Context): void {
+            console.log("`handle` method of ConcreteStateA is being called!");
+            context.State = new ConcreteStateB();
+        }
+}
+
+export class ConcreteStateB implements State {
+        public handle(context: Context): void {
+            console.log("`handle` method of ConcreteStateB is being called!");
+            context.State = new ConcreteStateA();
+        }
+}
+```
+
+定义 Context 类
+
+```typescript
+export class Context {
+        private state: State;
+
+        constructor(state: State) {
+            this.state = state;
+        }
+
+        get State(): State {
+            return this.state;
+        }
+
+        set State(state: State) {
+            this.state = state;
+        }
+
+        public request(): void {
+            console.log("request is being called!");
+            this.state.handle(this);
+        }
+}
 ```
 
 #### 使用示例
 
-```typescript
-
+```javascript
+export function show(): void {
+      const context: StatePattern.Context = new StatePattern.Context(
+        new StatePattern.ConcreteStateA()
+      );
+      context.request();
+      context.request();
+      context.request();
+      context.request();
+      context.request();
+      context.request();
+      context.request();
+      context.request();
+}
 ```
