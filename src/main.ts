@@ -6,6 +6,7 @@
 /// <reference path="decorator/demo.ts" />
 /// <reference path="facade/demo.ts" />
 /// <reference path="flyweight/demo.ts" />
+/// <reference path="chain-of-responsibility/demo.ts" />
 /// <reference path="iterator/demo.ts" />
 /// <reference path="mediator/demo.ts" />
 /// <reference path="observer/demo.ts" />
@@ -91,6 +92,9 @@ namespace Patterns {
           break;
         case 12:
           show(ProxyPattern);
+          break;
+        case 13:
+          show(ChainOfResponsibilityPattern);
           break;
         case 16:
           show(IteratorPattern);

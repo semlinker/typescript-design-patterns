@@ -22,14 +22,14 @@
 
 #### Behavioral Patterns（行为型模式）
 
-- Chain of Responsibility
+- [Chain of Responsibility](https://github.com/semlinker/typescript-design-patterns/tree/master/src/chain-of-responsibility)
 - Command
 - Interpreter
 - [Iterator](https://github.com/semlinker/typescript-design-patterns/tree/master/src/iterator)
 - [Mediator](https://github.com/semlinker/typescript-design-patterns/tree/master/src/mediator)
 - Memento
 - [Observer](https://github.com/semlinker/typescript-design-patterns/tree/master/src/observer)
-- State
+- [State](https://github.com/semlinker/typescript-design-patterns/tree/master/src/state)
 - [Strategy](https://github.com/semlinker/typescript-design-patterns/tree/master/src/strategy)
 - [Template Method](https://github.com/semlinker/typescript-design-patterns/tree/master/src/template-method)
 - Visitor
